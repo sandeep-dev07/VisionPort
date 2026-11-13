@@ -1,0 +1,27 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Model weights and exports
+*.pt
+*.onnx
+*.engine
+*.plan
+
+# Generated files
+runs/
+failures/
+
+# Data and model directories
+data/*
+!data/.gitkeep
+
+models/*
+!models/.gitkeep
+
+*.egg-info/
